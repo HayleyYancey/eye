@@ -1,0 +1,2008 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20.000000000000455" scrolly="-80.99999999999989" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id=".%7@kW_6x,!Y`=ck$A/D" x="50" y="90">
+      <field name="LOAD_COMP_ASSETS">FALSE</field>
+      <field name="FULLSCREEN">FALSE</field>
+      <field name="BKG_TRANSPARENCY">FALSE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+  </tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="-54.954363224040094" scrolly="408.91205203225684" scale="0.8372804511110997">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="VP*]VqUq47=8Vi8~lg0m">selected</variable>
+      <variable id=",.LVY]=3mZB$Zr{D?dQu">hidden</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="hide" id="=|?HM5%iMExXy(%q-+_." x="250" y="-10">
+      <value name="VALUE">
+        <shadow type="objectList" id="fl7AC_ENUfrX?FS/e!?#">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="groupList" id="(5}-x-u~P@iW0[C%ym/D">
+          <field name="FIELDNAME">Crossection</field>
+        </block>
+      </value>
+      <next>
+        <block type="hide" id="@%oW^xq:60f-X!D6q`%7">
+          <value name="VALUE">
+            <shadow type="objectList" id="fl7AC_ENUfrX?FS/e!?#">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="]nf6$Elswp!;V!qo?:TE">
+              <field name="FIELDNAME">Cube</field>
+            </block>
+          </value>
+          <next>
+            <block type="variables_set" id="1?AdFz*Uyt0/j#cq)3Cc">
+              <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+              <value name="VALUE">
+                <block type="lists_repeat" id="y~.4gj]y4+Cv0//4Hm~G">
+                  <value name="ITEM">
+                    <block type="logic_boolean" id="X[FA~FJef0oSBX5W|^*9">
+                      <field name="BOOL">FALSE</field>
+                    </block>
+                  </value>
+                  <value name="NUM">
+                    <block type="math_number" id="Yxfxosj|nYl$K)WXw|DD">
+                      <field name="NUM">26</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <next>
+                <block type="variables_set" id="u=JNpgOJojf4H+_p5T2J">
+                  <field name="VAR" id=",.LVY]=3mZB$Zr{D?dQu">hidden</field>
+                  <value name="VALUE">
+                    <block type="lists_repeat" id="?w6QnYqE#)AC}ZW|R7c9">
+                      <value name="ITEM">
+                        <block type="logic_boolean" id="?b,(9*~z#-~F/4Qz*zU~">
+                          <field name="BOOL">FALSE</field>
+                        </block>
+                      </value>
+                      <value name="NUM">
+                        <block type="math_number" id="C/z#7S^hwj71SsXJI|C4">
+                          <field name="NUM">26</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="groupList" id="nllizAj-yTE5z-tWsQG1" x="329" y="45">
+      <field name="FIELDNAME">Crossection</field>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="9skHNXQ1fhM`%$KTa(jM" x="250" y="230">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id=":I.g]W85tU$KMh;xV=7q">
+          <field name="TEXT">cross</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="controls_if" id="|}KwvN)F3~G`D4g*PZdL">
+          <value name="IF0">
+            <block type="isObjectVisible" id="~Enq5^*/]X5M]1-q0U8/">
+              <value name="VALUE">
+                <shadow type="objectList" id="IY^?g]wA{E3Vl85kj54,">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="groupList" id=".#$7,`(FT+Eis!|+,w3}">
+                  <field name="FIELDNAME">Whole</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO0">
+            <block type="hide" id="zd(5f1ckj0U,vkSeqW[$">
+              <value name="VALUE">
+                <shadow type="objectList" id="V$*wIY?T9w-9p:S.}_*K">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="groupList" id="%(+KgbdP6q05$anR@hnD">
+                  <field name="FIELDNAME">Whole</field>
+                </block>
+              </value>
+              <next>
+                <block type="show" id="e!GLFHl66A0kEcospk)-">
+                  <value name="VALUE">
+                    <shadow type="objectList" id="?/ezc-5zK2YT4,MLdc[|">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="groupList" id="1Z[O-VL%a^|mfl)Y|X@G">
+                      <field name="FIELDNAME">Crossection</field>
+                    </block>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="9Gw5gV9#KELjZ39_N$[m" x="750" y="230">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="I*NTUnS%zKaTT7uq5[1}">
+          <field name="TEXT">whole</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="controls_if" id="NTOWfv}qhIsg*#^z:{|J">
+          <value name="IF0">
+            <block type="isObjectVisible" id="~_6{(;l.vH3IYx`J:JHP">
+              <value name="VALUE">
+                <shadow type="objectList" id="IY^?g]wA{E3Vl85kj54,">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="groupList" id=")E~.32x,wJa|`~LT+sS^">
+                  <field name="FIELDNAME">Crossection</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO0">
+            <block type="hide" id="JDh|KmPqz|cCYzk6N?su">
+              <value name="VALUE">
+                <shadow type="objectList" id="V$*wIY?T9w-9p:S.}_*K">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="groupList" id="1s6%QkAw|Uy(lG!mA}(G">
+                  <field name="FIELDNAME">Crossection</field>
+                </block>
+              </value>
+              <next>
+                <block type="show" id="m2{JXeiUTOhY)h8^PTD^">
+                  <value name="VALUE">
+                    <shadow type="objectList" id="?/ezc-5zK2YT4,MLdc[|">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="groupList" id="BT+?r%q@QXciz*iX;lVH">
+                      <field name="FIELDNAME">Whole</field>
+                    </block>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="Y+1BY-wZ;s!(W]5?hfD7" inline="false" x="230" y="490">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="X[77arW4.HLg#,en|`MK">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="groupList" id="e9],.-UoALU-BrbK[CN}">
+          <field name="FIELDNAME">Whole</field>
+        </block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="setHTMLElemStyle" id="@Z-D[#Qk8_BY(},UK}B#">
+          <field name="PROPERTY">cursor</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <shadow type="cursorDropdown" id="{;)72ML1Hr(9_Q[=/_N_">
+              <field name="TEXT">pointer</field>
+            </shadow>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="4Q^tBN%b]TI]gPUWGR4w">
+              <field name="TEXT">body</field>
+            </shadow>
+            <block type="DOMObjectSelector" id="I[2.2S/6{J/EY~(Ou=@|">
+              <field name="DOM_OBJECT">BODY</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="setHTMLElemStyle" id="1@zh#tHoMeuXm7fLA.ll">
+          <field name="PROPERTY">cursor</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <shadow type="cursorDropdown" id="CwX`RE6#2upz^/Q{CdvB">
+              <field name="TEXT">default</field>
+            </shadow>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="4Q^tBN%b]TI]gPUWGR4w">
+              <field name="TEXT">body</field>
+            </shadow>
+            <block type="DOMObjectSelector" id="IT-TbF;]REmtJv%TbzuT">
+              <field name="DOM_OBJECT">BODY</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="aIa[#{G.jFP|/S-[-v}J" inline="false" x="890" y="470">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="X[77arW4.HLg#,en|`MK">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="groupList" id="L~PQ!?qMO#8,$*H72fFQ">
+          <field name="FIELDNAME">Crossection</field>
+        </block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="setHTMLElemStyle" id="=_vi.kyO?;oQz^;2:iX;">
+          <field name="PROPERTY">cursor</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <shadow type="cursorDropdown" id="pyILt%#E0x~%UDJ7_Q~g">
+              <field name="TEXT">pointer</field>
+            </shadow>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="4Q^tBN%b]TI]gPUWGR4w">
+              <field name="TEXT">body</field>
+            </shadow>
+            <block type="DOMObjectSelector" id="k6sEX7S46XH83k~ECt+K">
+              <field name="DOM_OBJECT">BODY</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="setHTMLElemStyle" id="4ODm[=$M=Qk93kUH!6`R">
+          <field name="PROPERTY">cursor</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <shadow type="cursorDropdown" id="jSPH1{u7e7%9JQ-{Dg$9">
+              <field name="TEXT">default</field>
+            </shadow>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="4Q^tBN%b]TI]gPUWGR4w">
+              <field name="TEXT">body</field>
+            </shadow>
+            <block type="DOMObjectSelector" id="}uc)nA^2M-cM|kGV6y5/">
+              <field name="DOM_OBJECT">BODY</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="comment" id="$%0`AGI-4ag}]U|!R@(x" x="290" y="850">
+      <field name="TEXT">Extrinsic Eye Muscles</field>
+      <next>
+        <block type="eventHTMLElem" id="TPw,N%wjz.tPyite{w;X" collapsed="true">
+          <field name="EVENT">click</field>
+          <field name="PARENT">TRUE</field>
+          <value name="ID">
+            <shadow type="text" id="HJoN$ZUjl(KT0wwx=I-n">
+              <field name="TEXT">#superior-rectus</field>
+            </shadow>
+            <block type="querySelector" id="^lA6BA/v#iMN~(Xd.#vq">
+              <value name="QUERY">
+                <shadow type="text" id="LZ@J6AbE1pT+`HBxS([!">
+                  <field name="TEXT">#superior-rectus &gt; p</field>
+                </shadow>
+              </value>
+            </block>
+          </value>
+          <statement name="DO">
+            <block type="outline" id="|ZG|wUnA;#rl?$ggJFq%">
+              <field name="DO_WHAT">DISABLE</field>
+              <value name="TARGET">
+                <shadow type="objectList" id="q,}.V5K[V%ZGw!kQ*]`d">
+                  <field name="FIELDNAME">Cornea</field>
+                </shadow>
+                <block type="allObjectList" id="!VMWFyA]Z`qd8$zA/v8]"></block>
+              </value>
+              <next>
+                <block type="controls_if" id="}siG*o(D6|tpI}nz]I^R">
+                  <mutation else="1"></mutation>
+                  <value name="IF0">
+                    <block type="logic_compare" id="e@Jf$g+5yu+*XjN^ZWja">
+                      <field name="OP">EQ</field>
+                      <value name="A">
+                        <block type="lists_getIndex" id="i-):,)kT]I79=SXS%rq~">
+                          <mutation statement="false" at="true"></mutation>
+                          <field name="MODE">GET</field>
+                          <field name="WHERE">FROM_START</field>
+                          <value name="VALUE">
+                            <block type="variables_get" id="m}%He3YvrLH4TW2XkTz9">
+                              <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                            </block>
+                          </value>
+                          <value name="AT">
+                            <block type="math_number" id="8tKKJm3IFLkbnH1bB?{=">
+                              <field name="NUM">0</field>
+                            </block>
+                          </value>
+                        </block>
+                      </value>
+                      <value name="B">
+                        <block type="logic_boolean" id=":bl!2fvz@3L3:=^2T`f9">
+                          <field name="BOOL">FALSE</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                  <statement name="DO0">
+                    <block type="variables_set" id="UER0}3*HTH[CY|7zh/4B">
+                      <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                      <value name="VALUE">
+                        <block type="lists_repeat" id="uaDzo~j*t@uF27rMmnj8">
+                          <value name="ITEM">
+                            <block type="logic_boolean" id="g6#Y(z$7g_pI329J3|0D">
+                              <field name="BOOL">FALSE</field>
+                            </block>
+                          </value>
+                          <value name="NUM">
+                            <block type="math_number" id="6DbJHWL^8a8rwk.X2W+t">
+                              <field name="NUM">26</field>
+                            </block>
+                          </value>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="controls_if" id="Hv@wTH}H_*,=e!8!cWb[">
+                          <value name="IF0">
+                            <block type="isObjectVisible" id="e3v$4vb!XN@vh2#xYoMW">
+                              <value name="VALUE">
+                                <shadow type="objectList" id="IY^?g]wA{E3Vl85kj54,">
+                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                </shadow>
+                                <block type="groupList" id=")lP#2W8!`KVS_OBzR)IG">
+                                  <field name="FIELDNAME">Crossection</field>
+                                </block>
+                              </value>
+                            </block>
+                          </value>
+                          <statement name="DO0">
+                            <block type="hide" id="[IDrJ!X[GOOZi$cE$%;T">
+                              <value name="VALUE">
+                                <shadow type="objectList" id="V$*wIY?T9w-9p:S.}_*K">
+                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                </shadow>
+                                <block type="groupList" id="]z0NGkr*f@C75qm`0kD;">
+                                  <field name="FIELDNAME">Crossection</field>
+                                </block>
+                              </value>
+                              <next>
+                                <block type="show" id="=-I#N1p?dkXN-sb)B?xw">
+                                  <value name="VALUE">
+                                    <shadow type="objectList" id="?/ezc-5zK2YT4,MLdc[|">
+                                      <field name="FIELDNAME">&lt;none&gt;</field>
+                                    </shadow>
+                                    <block type="groupList" id=")|wvm3T0YfbC[7=0~/0I">
+                                      <field name="FIELDNAME">Whole</field>
+                                    </block>
+                                  </value>
+                                  <next>
+                                    <block type="zoomCameraToObject" id="xMcRVPSY!t?)5A@:NmvV">
+                                      <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+                                      <value name="OBJECT">
+                                        <shadow type="objectList" id=")R~TSV2{@*-d,cD|v60M">
+                                          <field name="FIELDNAME">Superior Rectus</field>
+                                        </shadow>
+                                      </value>
+                                      <value name="DURATION">
+                                        <shadow type="math_number" id="bmSRr_H9UMJXghB7rReF">
+                                          <field name="NUM">1</field>
+                                        </shadow>
+                                      </value>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </statement>
+                          <next>
+                            <block type="outline" id="nz:Z,8#YY2K^1!59[m@C">
+                              <field name="DO_WHAT">ENABLE</field>
+                              <value name="TARGET">
+                                <shadow type="objectList" id="di:cO!P#bcRZYY{e_n`j">
+                                  <field name="FIELDNAME">Superior Rectus</field>
+                                </shadow>
+                              </value>
+                              <next>
+                                <block type="lists_setIndex" id=":gV.IP$YWl9r#y4A3G{_">
+                                  <mutation at="true"></mutation>
+                                  <field name="MODE">SET</field>
+                                  <field name="WHERE">FROM_START</field>
+                                  <value name="LIST">
+                                    <block type="variables_get" id="T?^*JI27t/=inzA5ogeP">
+                                      <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                                    </block>
+                                  </value>
+                                  <value name="AT">
+                                    <block type="math_number" id=":tsa:jgxe45t|zS.]O:Y">
+                                      <field name="NUM">0</field>
+                                    </block>
+                                  </value>
+                                  <value name="TO">
+                                    <block type="logic_boolean" id="#vv7k6XtxM.lH2O0tTu%">
+                                      <field name="BOOL">TRUE</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                  <statement name="ELSE">
+                    <block type="lists_setIndex" id="h8UtoPiBL;kavO}3MLVw">
+                      <mutation at="true"></mutation>
+                      <field name="MODE">SET</field>
+                      <field name="WHERE">FROM_START</field>
+                      <value name="LIST">
+                        <block type="variables_get" id="x*-u$kBpa]dG+^C24IQ*">
+                          <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                        </block>
+                      </value>
+                      <value name="AT">
+                        <block type="math_number" id="0M,2YeB3c*V-Em1O$k5c">
+                          <field name="NUM">0</field>
+                        </block>
+                      </value>
+                      <value name="TO">
+                        <block type="logic_boolean" id="C3FtO0N6s?!lP3nzWC3?">
+                          <field name="BOOL">FALSE</field>
+                        </block>
+                      </value>
+                    </block>
+                  </statement>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <next>
+            <block type="eventHTMLElem" id="WZrBv7aDexRqy@7]4|P6" collapsed="true">
+              <field name="EVENT">click</field>
+              <field name="PARENT">TRUE</field>
+              <value name="ID">
+                <shadow type="text" id="HJoN$ZUjl(KT0wwx=I-n">
+                  <field name="TEXT">#superior-rectus</field>
+                </shadow>
+                <block type="querySelector" id="NjhSsbdx)ujrtpkXvRJq">
+                  <value name="QUERY">
+                    <shadow type="text" id="/*{9Mwv/8q%?givBaHA`">
+                      <field name="TEXT">#inferior-rectus &gt; p</field>
+                    </shadow>
+                  </value>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="outline" id="Vv|WVL}4swg#IgkQ%32j">
+                  <field name="DO_WHAT">DISABLE</field>
+                  <value name="TARGET">
+                    <shadow type="objectList" id="q,}.V5K[V%ZGw!kQ*]`d">
+                      <field name="FIELDNAME">Cornea</field>
+                    </shadow>
+                    <block type="allObjectList" id="QeAMgZ,|YP#wrZZ`5fKd"></block>
+                  </value>
+                  <next>
+                    <block type="controls_if" id="9}7fo?5_x$~eL7H~^/Ax">
+                      <mutation else="1"></mutation>
+                      <value name="IF0">
+                        <block type="logic_compare" id="%f~VaODbz4P27`]#q%zS">
+                          <field name="OP">EQ</field>
+                          <value name="A">
+                            <block type="lists_getIndex" id=")%:Z4^jP#,}ySKj9HObW">
+                              <mutation statement="false" at="true"></mutation>
+                              <field name="MODE">GET</field>
+                              <field name="WHERE">FROM_START</field>
+                              <value name="VALUE">
+                                <block type="variables_get" id="|67^:%hw|xag0`FDd[r7">
+                                  <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                                </block>
+                              </value>
+                              <value name="AT">
+                                <block type="math_number" id="Iqx~NR+9b@+j[xBAlO5!">
+                                  <field name="NUM">1</field>
+                                </block>
+                              </value>
+                            </block>
+                          </value>
+                          <value name="B">
+                            <block type="logic_boolean" id="1Yyk%[R?4Al}mMX]3%$m">
+                              <field name="BOOL">FALSE</field>
+                            </block>
+                          </value>
+                        </block>
+                      </value>
+                      <statement name="DO0">
+                        <block type="variables_set" id="+7O[fILW(u@MSt}YZm?n">
+                          <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                          <value name="VALUE">
+                            <block type="lists_repeat" id="eb(,V/c0,D0WD@Q$I`7E">
+                              <value name="ITEM">
+                                <block type="logic_boolean" id="gemcodXY?{gDaKe~c$]f">
+                                  <field name="BOOL">FALSE</field>
+                                </block>
+                              </value>
+                              <value name="NUM">
+                                <block type="math_number" id="IM{L]F?xs56GeOL|$nc(">
+                                  <field name="NUM">26</field>
+                                </block>
+                              </value>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="controls_if" id="N]:[uYR?tFNFG?8*9_Xl">
+                              <value name="IF0">
+                                <block type="isObjectVisible" id="d/5Q+JbADUF/;Y8Ee]@k">
+                                  <value name="VALUE">
+                                    <shadow type="objectList" id="IY^?g]wA{E3Vl85kj54,">
+                                      <field name="FIELDNAME">&lt;none&gt;</field>
+                                    </shadow>
+                                    <block type="groupList" id="{7F4;rQ0rBu~#dW{^%=9">
+                                      <field name="FIELDNAME">Crossection</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <statement name="DO0">
+                                <block type="hide" id="!U7eE2QsP/GskwS?6Acu">
+                                  <value name="VALUE">
+                                    <shadow type="objectList" id="V$*wIY?T9w-9p:S.}_*K">
+                                      <field name="FIELDNAME">&lt;none&gt;</field>
+                                    </shadow>
+                                    <block type="groupList" id="2Q_bmC?Bcwk(qvz+67{G">
+                                      <field name="FIELDNAME">Crossection</field>
+                                    </block>
+                                  </value>
+                                  <next>
+                                    <block type="show" id="CcV9cvm2dHv2dn~bEz=B">
+                                      <value name="VALUE">
+                                        <shadow type="objectList" id="?/ezc-5zK2YT4,MLdc[|">
+                                          <field name="FIELDNAME">&lt;none&gt;</field>
+                                        </shadow>
+                                        <block type="groupList" id="^o`]zT8:EJFi_leDu{i[">
+                                          <field name="FIELDNAME">Whole</field>
+                                        </block>
+                                      </value>
+                                      <next>
+                                        <block type="zoomCameraToObject" id="b@DGfTm]LJ0v0usv86iL">
+                                          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+                                          <value name="OBJECT">
+                                            <shadow type="objectList" id="Ju(,GUz$*16w7/7$1NpX">
+                                              <field name="FIELDNAME">Inferior Rectus</field>
+                                            </shadow>
+                                          </value>
+                                          <value name="DURATION">
+                                            <shadow type="math_number" id="?F.*RPN$(3iZ366?^]0P">
+                                              <field name="NUM">1</field>
+                                            </shadow>
+                                          </value>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </next>
+                                </block>
+                              </statement>
+                              <next>
+                                <block type="outline" id="QzIrNiWQwGBFd+;{^Npr">
+                                  <field name="DO_WHAT">ENABLE</field>
+                                  <value name="TARGET">
+                                    <shadow type="objectList" id="W4%2g^9^KSmI7UBl1~n7">
+                                      <field name="FIELDNAME">Inferior Rectus</field>
+                                    </shadow>
+                                  </value>
+                                  <next>
+                                    <block type="lists_setIndex" id="mL^H1NHvA{BOyr2mQ(Y3">
+                                      <mutation at="true"></mutation>
+                                      <field name="MODE">SET</field>
+                                      <field name="WHERE">FROM_START</field>
+                                      <value name="LIST">
+                                        <block type="variables_get" id="YUt,}sq.~xs(,`Ur;bQ.">
+                                          <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                                        </block>
+                                      </value>
+                                      <value name="AT">
+                                        <block type="math_number" id="0Y0PB={bA|sOVgtwfMjT">
+                                          <field name="NUM">1</field>
+                                        </block>
+                                      </value>
+                                      <value name="TO">
+                                        <block type="logic_boolean" id="}YT/H]~euxUz[V;jXg)D">
+                                          <field name="BOOL">TRUE</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </statement>
+                      <statement name="ELSE">
+                        <block type="lists_setIndex" id="](}YER];e=,:TGq3.L%d">
+                          <mutation at="true"></mutation>
+                          <field name="MODE">SET</field>
+                          <field name="WHERE">FROM_START</field>
+                          <value name="LIST">
+                            <block type="variables_get" id="A!52*H9y}fy6%zz^_jcC">
+                              <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                            </block>
+                          </value>
+                          <value name="AT">
+                            <block type="math_number" id="r7-}KSR+nz{U%VL~2`,x">
+                              <field name="NUM">1</field>
+                            </block>
+                          </value>
+                          <value name="TO">
+                            <block type="logic_boolean" id=".Bya`V3f)U!-@N]tupXd">
+                              <field name="BOOL">FALSE</field>
+                            </block>
+                          </value>
+                        </block>
+                      </statement>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+              <next>
+                <block type="eventHTMLElem" id="5Mty,`:Qen6MdBj5,#MZ" collapsed="true">
+                  <field name="EVENT">click</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="ID">
+                    <shadow type="text" id="HJoN$ZUjl(KT0wwx=I-n">
+                      <field name="TEXT">#superior-rectus</field>
+                    </shadow>
+                    <block type="querySelector" id="ZyHJN{$Cy]ysD6a?,DcV">
+                      <value name="QUERY">
+                        <shadow type="text" id="Lr7V.$m$m*QH5X[gB|c:">
+                          <field name="TEXT">#medial-rectus &gt; p</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </value>
+                  <statement name="DO">
+                    <block type="outline" id="Nc]-yr^f?rLv1zh|ftF*">
+                      <field name="DO_WHAT">DISABLE</field>
+                      <value name="TARGET">
+                        <shadow type="objectList" id="q,}.V5K[V%ZGw!kQ*]`d">
+                          <field name="FIELDNAME">Cornea</field>
+                        </shadow>
+                        <block type="allObjectList" id="9(_3(ClA{[LachX2?zJ."></block>
+                      </value>
+                      <next>
+                        <block type="controls_if" id=",CVAD]N_NoNu{*#ino2Z">
+                          <mutation else="1"></mutation>
+                          <value name="IF0">
+                            <block type="logic_compare" id="IxCHhgAkK;X|0OC%HHSE">
+                              <field name="OP">EQ</field>
+                              <value name="A">
+                                <block type="lists_getIndex" id="$uW],=g6re.4JoOFX`tg">
+                                  <mutation statement="false" at="true"></mutation>
+                                  <field name="MODE">GET</field>
+                                  <field name="WHERE">FROM_START</field>
+                                  <value name="VALUE">
+                                    <block type="variables_get" id="cm[,@G`%J=H*2^+q`pun">
+                                      <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                                    </block>
+                                  </value>
+                                  <value name="AT">
+                                    <block type="math_number" id="4MYM?tJHPT{=2jkrnfW2">
+                                      <field name="NUM">2</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <value name="B">
+                                <block type="logic_boolean" id="/R,1Yk(6589Zhoo|`n*n">
+                                  <field name="BOOL">FALSE</field>
+                                </block>
+                              </value>
+                            </block>
+                          </value>
+                          <statement name="DO0">
+                            <block type="variables_set" id="E,[a*Q}i28ilk!60f;#P">
+                              <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                              <value name="VALUE">
+                                <block type="lists_repeat" id="uY#6TBbL,~@(c[oUP1YD">
+                                  <value name="ITEM">
+                                    <block type="logic_boolean" id="*z6nkz*/RNLjl.4kg6p^">
+                                      <field name="BOOL">FALSE</field>
+                                    </block>
+                                  </value>
+                                  <value name="NUM">
+                                    <block type="math_number" id="fyIZ*DSyl_,+6fip%rOp">
+                                      <field name="NUM">26</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <next>
+                                <block type="controls_if" id="-QOZKaZK}mmrzk69`__h">
+                                  <value name="IF0">
+                                    <block type="isObjectVisible" id="wO9RN1y04z2}FrGw=dyv">
+                                      <value name="VALUE">
+                                        <shadow type="objectList" id="IY^?g]wA{E3Vl85kj54,">
+                                          <field name="FIELDNAME">&lt;none&gt;</field>
+                                        </shadow>
+                                        <block type="groupList" id="ha9!N-yfO~18^JM{@Ua,">
+                                          <field name="FIELDNAME">Crossection</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <statement name="DO0">
+                                    <block type="hide" id="M:P;!yU[D**8vV71RVVJ">
+                                      <value name="VALUE">
+                                        <shadow type="objectList" id="V$*wIY?T9w-9p:S.}_*K">
+                                          <field name="FIELDNAME">&lt;none&gt;</field>
+                                        </shadow>
+                                        <block type="groupList" id="aRY-=90diox?0c|$;4CM">
+                                          <field name="FIELDNAME">Crossection</field>
+                                        </block>
+                                      </value>
+                                      <next>
+                                        <block type="show" id="y0~p2%Kc+P5gX|8/ue3U">
+                                          <value name="VALUE">
+                                            <shadow type="objectList" id="?/ezc-5zK2YT4,MLdc[|">
+                                              <field name="FIELDNAME">&lt;none&gt;</field>
+                                            </shadow>
+                                            <block type="groupList" id="P.51qje*avkB;(iZ}u(-">
+                                              <field name="FIELDNAME">Whole</field>
+                                            </block>
+                                          </value>
+                                          <next>
+                                            <block type="zoomCameraToObject" id="3k9`X]cZ?)1?/.moWM~a">
+                                              <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+                                              <value name="OBJECT">
+                                                <shadow type="objectList" id="_Ot!w2$/;:x=a9%-:v%I">
+                                                  <field name="FIELDNAME">Medial Rectus</field>
+                                                </shadow>
+                                              </value>
+                                              <value name="DURATION">
+                                                <shadow type="math_number" id="dR-+#Y5A27?v%4xBu?@R">
+                                                  <field name="NUM">1</field>
+                                                </shadow>
+                                              </value>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </statement>
+                                  <next>
+                                    <block type="outline" id="t-1QikVzx-wO-pjB3rNk">
+                                      <field name="DO_WHAT">ENABLE</field>
+                                      <value name="TARGET">
+                                        <shadow type="objectList" id="()}}FEhV/P+tFYXF].uD">
+                                          <field name="FIELDNAME">Medial Rectus</field>
+                                        </shadow>
+                                      </value>
+                                      <next>
+                                        <block type="lists_setIndex" id="L/:#QXjwB{B-=oylBBQ]">
+                                          <mutation at="true"></mutation>
+                                          <field name="MODE">SET</field>
+                                          <field name="WHERE">FROM_START</field>
+                                          <value name="LIST">
+                                            <block type="variables_get" id="-@sm1GN]e`%l[IBwOrYM">
+                                              <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                                            </block>
+                                          </value>
+                                          <value name="AT">
+                                            <block type="math_number" id="X1*XGm%T#WU9osttA7mb">
+                                              <field name="NUM">2</field>
+                                            </block>
+                                          </value>
+                                          <value name="TO">
+                                            <block type="logic_boolean" id="$=/K_c.r|3gnLQS!bur,">
+                                              <field name="BOOL">TRUE</field>
+                                            </block>
+                                          </value>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </statement>
+                          <statement name="ELSE">
+                            <block type="lists_setIndex" id="%g5J4S9OGff0*S_pWt+y">
+                              <mutation at="true"></mutation>
+                              <field name="MODE">SET</field>
+                              <field name="WHERE">FROM_START</field>
+                              <value name="LIST">
+                                <block type="variables_get" id="X8(R|b/@pr+Q=X`wD+w#">
+                                  <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                                </block>
+                              </value>
+                              <value name="AT">
+                                <block type="math_number" id="{#j{x6)+z1R_?tB?8koI">
+                                  <field name="NUM">2</field>
+                                </block>
+                              </value>
+                              <value name="TO">
+                                <block type="logic_boolean" id="Ydm]iHxG,H)o%(|B@)EM">
+                                  <field name="BOOL">FALSE</field>
+                                </block>
+                              </value>
+                            </block>
+                          </statement>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                  <next>
+                    <block type="eventHTMLElem" id="q-/$Cte{W#JRsskvSiO5" collapsed="true">
+                      <field name="EVENT">click</field>
+                      <field name="PARENT">TRUE</field>
+                      <value name="ID">
+                        <shadow type="text" id="HJoN$ZUjl(KT0wwx=I-n">
+                          <field name="TEXT">#superior-rectus</field>
+                        </shadow>
+                        <block type="querySelector" id="cV+z^JM={;{Mk.:C*Kx*">
+                          <value name="QUERY">
+                            <shadow type="text" id="^aWjhTDTr}:SxYb$,_`S">
+                              <field name="TEXT">#lateral-rectus &gt; p</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </value>
+                      <statement name="DO">
+                        <block type="outline" id="|GCW)!+Q3W=aS9}uUQQt">
+                          <field name="DO_WHAT">DISABLE</field>
+                          <value name="TARGET">
+                            <shadow type="objectList" id="q,}.V5K[V%ZGw!kQ*]`d">
+                              <field name="FIELDNAME">Cornea</field>
+                            </shadow>
+                            <block type="allObjectList" id="u5@xlWN1LHE*og0xB{(q"></block>
+                          </value>
+                          <next>
+                            <block type="controls_if" id="YXX?@ESc]l^8k~:X%-.V">
+                              <mutation else="1"></mutation>
+                              <value name="IF0">
+                                <block type="logic_compare" id="l3M9uygxj2)l5ALP%J|f">
+                                  <field name="OP">EQ</field>
+                                  <value name="A">
+                                    <block type="lists_getIndex" id="cUyJ6?jH21Bb/`OW!~`;">
+                                      <mutation statement="false" at="true"></mutation>
+                                      <field name="MODE">GET</field>
+                                      <field name="WHERE">FROM_START</field>
+                                      <value name="VALUE">
+                                        <block type="variables_get" id="6xyA0Bp2h/GoQGrGWs8`">
+                                          <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                                        </block>
+                                      </value>
+                                      <value name="AT">
+                                        <block type="math_number" id="{/BQ9ilydwdQX^/0uEW^">
+                                          <field name="NUM">3</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="B">
+                                    <block type="logic_boolean" id="hwqX%*)jwhonnnjUaa-F">
+                                      <field name="BOOL">FALSE</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <statement name="DO0">
+                                <block type="variables_set" id="Fn9+QrRj67I]8IFG!-vj">
+                                  <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                                  <value name="VALUE">
+                                    <block type="lists_repeat" id="t$dQSS5$`/UUeX.J7xx]">
+                                      <value name="ITEM">
+                                        <block type="logic_boolean" id="Fj}Uw.0]yX9@OzemM0Yk">
+                                          <field name="BOOL">FALSE</field>
+                                        </block>
+                                      </value>
+                                      <value name="NUM">
+                                        <block type="math_number" id="`!#_0F6o/*F,3=U/,8#+">
+                                          <field name="NUM">26</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <next>
+                                    <block type="controls_if" id="=ksKdrjC~Xk[O}ZI6DUf">
+                                      <value name="IF0">
+                                        <block type="isObjectVisible" id="Q)K-.7cn],=5W[`Dp!Jp">
+                                          <value name="VALUE">
+                                            <shadow type="objectList" id="IY^?g]wA{E3Vl85kj54,">
+                                              <field name="FIELDNAME">&lt;none&gt;</field>
+                                            </shadow>
+                                            <block type="groupList" id="${^~zH*{o$Q6lny6LY0s">
+                                              <field name="FIELDNAME">Crossection</field>
+                                            </block>
+                                          </value>
+                                        </block>
+                                      </value>
+                                      <statement name="DO0">
+                                        <block type="hide" id="*{9~W~|w@Rb5v%U^powr">
+                                          <value name="VALUE">
+                                            <shadow type="objectList" id="V$*wIY?T9w-9p:S.}_*K">
+                                              <field name="FIELDNAME">&lt;none&gt;</field>
+                                            </shadow>
+                                            <block type="groupList" id="_10Id1Jhg$S9a3tgR#N^">
+                                              <field name="FIELDNAME">Crossection</field>
+                                            </block>
+                                          </value>
+                                          <next>
+                                            <block type="show" id="GBVv1SADi@`H6B=o5ldi">
+                                              <value name="VALUE">
+                                                <shadow type="objectList" id="?/ezc-5zK2YT4,MLdc[|">
+                                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                                </shadow>
+                                                <block type="groupList" id="}Pvcx(RiX:AHjw.$:6BJ">
+                                                  <field name="FIELDNAME">Whole</field>
+                                                </block>
+                                              </value>
+                                              <next>
+                                                <block type="zoomCameraToObject" id="l^aQ/8dwMYGB(BP?l~XB">
+                                                  <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+                                                  <value name="OBJECT">
+                                                    <shadow type="objectList" id="KXN8K!xPS^G4T%LIv?gh">
+                                                      <field name="FIELDNAME">Lateral Rectus</field>
+                                                    </shadow>
+                                                  </value>
+                                                  <value name="DURATION">
+                                                    <shadow type="math_number" id="J9,ISP_txe_a[@_/`#{O">
+                                                      <field name="NUM">1</field>
+                                                    </shadow>
+                                                  </value>
+                                                </block>
+                                              </next>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </statement>
+                                      <next>
+                                        <block type="outline" id="I;OA6W!3=|{47g?Ex$fZ">
+                                          <field name="DO_WHAT">ENABLE</field>
+                                          <value name="TARGET">
+                                            <shadow type="objectList" id="WFZERx`/uHZzV+UT~ed]">
+                                              <field name="FIELDNAME">Lateral Rectus</field>
+                                            </shadow>
+                                          </value>
+                                          <next>
+                                            <block type="lists_setIndex" id="N~jervm408b*F+5}Iksi">
+                                              <mutation at="true"></mutation>
+                                              <field name="MODE">SET</field>
+                                              <field name="WHERE">FROM_START</field>
+                                              <value name="LIST">
+                                                <block type="variables_get" id="0v`3G)s9}U0.)XyMka[o">
+                                                  <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                                                </block>
+                                              </value>
+                                              <value name="AT">
+                                                <block type="math_number" id="~`5djyK.-fz-W/w(_H.R">
+                                                  <field name="NUM">3</field>
+                                                </block>
+                                              </value>
+                                              <value name="TO">
+                                                <block type="logic_boolean" id="Cmv.dKXUB*w2{?yG6tE:">
+                                                  <field name="BOOL">TRUE</field>
+                                                </block>
+                                              </value>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </next>
+                                </block>
+                              </statement>
+                              <statement name="ELSE">
+                                <block type="lists_setIndex" id=";qj@Q~9TA#f602se^FLQ">
+                                  <mutation at="true"></mutation>
+                                  <field name="MODE">SET</field>
+                                  <field name="WHERE">FROM_START</field>
+                                  <value name="LIST">
+                                    <block type="variables_get" id="lm_5^DwY6KiQkkwJKIHf">
+                                      <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                                    </block>
+                                  </value>
+                                  <value name="AT">
+                                    <block type="math_number" id="s!KvZi]psKth#TXWg}0N">
+                                      <field name="NUM">3</field>
+                                    </block>
+                                  </value>
+                                  <value name="TO">
+                                    <block type="logic_boolean" id="iF$stCKdod1ro|p!MB@y">
+                                      <field name="BOOL">FALSE</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </statement>
+                            </block>
+                          </next>
+                        </block>
+                      </statement>
+                      <next>
+                        <block type="eventHTMLElem" id=",.JwnPK$f%*dj$!qJkK(" collapsed="true">
+                          <field name="EVENT">click</field>
+                          <field name="PARENT">TRUE</field>
+                          <value name="ID">
+                            <shadow type="text" id="HJoN$ZUjl(KT0wwx=I-n">
+                              <field name="TEXT">#superior-rectus</field>
+                            </shadow>
+                            <block type="querySelector" id="{@dm)j#*t(jnr7JP`jyY">
+                              <value name="QUERY">
+                                <shadow type="text" id="S:]_,w0|~eX,~9fe/Y)p">
+                                  <field name="TEXT">#superior-oblique &gt; p</field>
+                                </shadow>
+                              </value>
+                            </block>
+                          </value>
+                          <statement name="DO">
+                            <block type="outline" id="2H-L$f4(VXjdEz$1BO;X">
+                              <field name="DO_WHAT">DISABLE</field>
+                              <value name="TARGET">
+                                <shadow type="objectList" id="q,}.V5K[V%ZGw!kQ*]`d">
+                                  <field name="FIELDNAME">Cornea</field>
+                                </shadow>
+                                <block type="allObjectList" id="1:Z~S#*Q74cmktYsT(87"></block>
+                              </value>
+                              <next>
+                                <block type="controls_if" id="75Y9*3@TG*KUps?}WW8T">
+                                  <mutation else="1"></mutation>
+                                  <value name="IF0">
+                                    <block type="logic_compare" id="oXK$qdTtBI.-pkIQFE;I">
+                                      <field name="OP">EQ</field>
+                                      <value name="A">
+                                        <block type="lists_getIndex" id=".nD4Bbf]]8^VjFs7!`C=">
+                                          <mutation statement="false" at="true"></mutation>
+                                          <field name="MODE">GET</field>
+                                          <field name="WHERE">FROM_START</field>
+                                          <value name="VALUE">
+                                            <block type="variables_get" id="P:x%aXASNUc{hlc(c3D8">
+                                              <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                                            </block>
+                                          </value>
+                                          <value name="AT">
+                                            <block type="math_number" id="p3zVg~JMkWTBT;%ElvcH">
+                                              <field name="NUM">4</field>
+                                            </block>
+                                          </value>
+                                        </block>
+                                      </value>
+                                      <value name="B">
+                                        <block type="logic_boolean" id="4GkT4Us-1,Rszd7Ds5DF">
+                                          <field name="BOOL">FALSE</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <statement name="DO0">
+                                    <block type="variables_set" id="zB/Mh,1oIa1A8TRmWzv$">
+                                      <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                                      <value name="VALUE">
+                                        <block type="lists_repeat" id="T7R@k-L!,/_el%;4E)iu">
+                                          <value name="ITEM">
+                                            <block type="logic_boolean" id="0JydEf@b_ke|Ock`f(qv">
+                                              <field name="BOOL">FALSE</field>
+                                            </block>
+                                          </value>
+                                          <value name="NUM">
+                                            <block type="math_number" id="k9[oX8z#Uq;($0^P)c.3">
+                                              <field name="NUM">26</field>
+                                            </block>
+                                          </value>
+                                        </block>
+                                      </value>
+                                      <next>
+                                        <block type="controls_if" id="d2.g;eOy08:ERiu~j`xc">
+                                          <value name="IF0">
+                                            <block type="isObjectVisible" id=";*n#vJ0?IsTy?z=$(75`">
+                                              <value name="VALUE">
+                                                <shadow type="objectList" id="IY^?g]wA{E3Vl85kj54,">
+                                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                                </shadow>
+                                                <block type="groupList" id="5m^5$9ymwcz]X84IL!~C">
+                                                  <field name="FIELDNAME">Crossection</field>
+                                                </block>
+                                              </value>
+                                            </block>
+                                          </value>
+                                          <statement name="DO0">
+                                            <block type="hide" id="V3?i!lb(0W]W72xn6DXk">
+                                              <value name="VALUE">
+                                                <shadow type="objectList" id="V$*wIY?T9w-9p:S.}_*K">
+                                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                                </shadow>
+                                                <block type="groupList" id="z3cCQd91uR(e7xXkEW;c">
+                                                  <field name="FIELDNAME">Crossection</field>
+                                                </block>
+                                              </value>
+                                              <next>
+                                                <block type="show" id="0;QM#ipj/l%x~P[%Ie8P">
+                                                  <value name="VALUE">
+                                                    <shadow type="objectList" id="?/ezc-5zK2YT4,MLdc[|">
+                                                      <field name="FIELDNAME">&lt;none&gt;</field>
+                                                    </shadow>
+                                                    <block type="groupList" id="`W*LTMRC@@2(+u5fZ3:J">
+                                                      <field name="FIELDNAME">Whole</field>
+                                                    </block>
+                                                  </value>
+                                                  <next>
+                                                    <block type="zoomCameraToObject" id="gwgg[JSCV~d9oaz]A(4d">
+                                                      <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+                                                      <value name="OBJECT">
+                                                        <shadow type="objectList" id="?:0c$:vW$RPok]ZX64-a">
+                                                          <field name="FIELDNAME">Superior Oblique</field>
+                                                        </shadow>
+                                                      </value>
+                                                      <value name="DURATION">
+                                                        <shadow type="math_number" id="]_G|^-Oyts6GKp;lw6RI">
+                                                          <field name="NUM">1</field>
+                                                        </shadow>
+                                                      </value>
+                                                    </block>
+                                                  </next>
+                                                </block>
+                                              </next>
+                                            </block>
+                                          </statement>
+                                          <next>
+                                            <block type="outline" id="JRCXSuOU.gwokOc^,)oU">
+                                              <field name="DO_WHAT">ENABLE</field>
+                                              <value name="TARGET">
+                                                <shadow type="objectList" id="eXvshT!s)Tr^RrXdUkuZ">
+                                                  <field name="FIELDNAME">Superior Oblique</field>
+                                                </shadow>
+                                              </value>
+                                              <next>
+                                                <block type="lists_setIndex" id="aSEIbnOM7YLnlZ%J!]$P">
+                                                  <mutation at="true"></mutation>
+                                                  <field name="MODE">SET</field>
+                                                  <field name="WHERE">FROM_START</field>
+                                                  <value name="LIST">
+                                                    <block type="variables_get" id="fn6rPYhmf#6(,+DVZvAB">
+                                                      <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                                                    </block>
+                                                  </value>
+                                                  <value name="AT">
+                                                    <block type="math_number" id="NVH}bN5PO1#c?wlh0@i-">
+                                                      <field name="NUM">4</field>
+                                                    </block>
+                                                  </value>
+                                                  <value name="TO">
+                                                    <block type="logic_boolean" id="gN2$;G2;Okbcsf{}bq]X">
+                                                      <field name="BOOL">TRUE</field>
+                                                    </block>
+                                                  </value>
+                                                </block>
+                                              </next>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </statement>
+                                  <statement name="ELSE">
+                                    <block type="lists_setIndex" id="%#3.-|sU,mt^Y$?u5o[V">
+                                      <mutation at="true"></mutation>
+                                      <field name="MODE">SET</field>
+                                      <field name="WHERE">FROM_START</field>
+                                      <value name="LIST">
+                                        <block type="variables_get" id="pi?O8-J+`L]?l/uD6STp">
+                                          <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                                        </block>
+                                      </value>
+                                      <value name="AT">
+                                        <block type="math_number" id="fXuu*Jzv!j_QRsp`iyN/">
+                                          <field name="NUM">4</field>
+                                        </block>
+                                      </value>
+                                      <value name="TO">
+                                        <block type="logic_boolean" id="JwrSwXStZmVGz{+b3oq+">
+                                          <field name="BOOL">FALSE</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </statement>
+                                </block>
+                              </next>
+                            </block>
+                          </statement>
+                          <next>
+                            <block type="eventHTMLElem" id="~ioPjVvr6;IppL~Eix-u" collapsed="true">
+                              <field name="EVENT">click</field>
+                              <field name="PARENT">TRUE</field>
+                              <value name="ID">
+                                <shadow type="text" id="HJoN$ZUjl(KT0wwx=I-n">
+                                  <field name="TEXT">#superior-rectus</field>
+                                </shadow>
+                                <block type="querySelector" id="p`Y56M8Kc1j/:y%e)w[e">
+                                  <value name="QUERY">
+                                    <shadow type="text" id="!HWzK6jCMBXtXWj(GByK">
+                                      <field name="TEXT">#inferior-oblique &gt; p</field>
+                                    </shadow>
+                                  </value>
+                                </block>
+                              </value>
+                              <statement name="DO">
+                                <block type="outline" id="zSXp$V~te(kGCv#xq$hf">
+                                  <field name="DO_WHAT">DISABLE</field>
+                                  <value name="TARGET">
+                                    <shadow type="objectList" id="q,}.V5K[V%ZGw!kQ*]`d">
+                                      <field name="FIELDNAME">Cornea</field>
+                                    </shadow>
+                                    <block type="allObjectList" id="gO~pSJIpB)EPy)W;09,r"></block>
+                                  </value>
+                                  <next>
+                                    <block type="controls_if" id="2`g%k:7_Cmp(LQTZK^s^">
+                                      <mutation else="1"></mutation>
+                                      <value name="IF0">
+                                        <block type="logic_compare" id="#Y[*ttzPF|)Jr88JsgTG">
+                                          <field name="OP">EQ</field>
+                                          <value name="A">
+                                            <block type="lists_getIndex" id="tfoR_pMUWsx]xag2P+XV">
+                                              <mutation statement="false" at="true"></mutation>
+                                              <field name="MODE">GET</field>
+                                              <field name="WHERE">FROM_START</field>
+                                              <value name="VALUE">
+                                                <block type="variables_get" id="$^~K-AE8T3L=y@Z{CE9E">
+                                                  <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                                                </block>
+                                              </value>
+                                              <value name="AT">
+                                                <block type="math_number" id="b3`UvAyY4EUvB*69/`T^">
+                                                  <field name="NUM">5</field>
+                                                </block>
+                                              </value>
+                                            </block>
+                                          </value>
+                                          <value name="B">
+                                            <block type="logic_boolean" id="-Vcu2mAn.u3=-:ht{Hu9">
+                                              <field name="BOOL">FALSE</field>
+                                            </block>
+                                          </value>
+                                        </block>
+                                      </value>
+                                      <statement name="DO0">
+                                        <block type="variables_set" id="r]ZE+@qe=DtsY|WZXbu!">
+                                          <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                                          <value name="VALUE">
+                                            <block type="lists_repeat" id="[3F0DS~:RZ.d0ehAZ+=2">
+                                              <value name="ITEM">
+                                                <block type="logic_boolean" id="?@z-ym1QJpgyU4f@SQ/)">
+                                                  <field name="BOOL">FALSE</field>
+                                                </block>
+                                              </value>
+                                              <value name="NUM">
+                                                <block type="math_number" id="ni+t7*~gj_0`{E3Ov#*W">
+                                                  <field name="NUM">26</field>
+                                                </block>
+                                              </value>
+                                            </block>
+                                          </value>
+                                          <next>
+                                            <block type="controls_if" id="g;Qth6nrViZP`.RELC6J">
+                                              <value name="IF0">
+                                                <block type="isObjectVisible" id="z1cSB-`DcxXEd#=%]Y@m">
+                                                  <value name="VALUE">
+                                                    <shadow type="objectList" id="IY^?g]wA{E3Vl85kj54,">
+                                                      <field name="FIELDNAME">&lt;none&gt;</field>
+                                                    </shadow>
+                                                    <block type="groupList" id="RF80Z4YxFQma5mivd28-">
+                                                      <field name="FIELDNAME">Crossection</field>
+                                                    </block>
+                                                  </value>
+                                                </block>
+                                              </value>
+                                              <statement name="DO0">
+                                                <block type="hide" id="0YcmXGQ2jm}@0R|V*E{x">
+                                                  <value name="VALUE">
+                                                    <shadow type="objectList" id="V$*wIY?T9w-9p:S.}_*K">
+                                                      <field name="FIELDNAME">&lt;none&gt;</field>
+                                                    </shadow>
+                                                    <block type="groupList" id="{w;WO+}uvm/y+x^g(ZaX">
+                                                      <field name="FIELDNAME">Crossection</field>
+                                                    </block>
+                                                  </value>
+                                                  <next>
+                                                    <block type="show" id="]T]@{8N!_mirfV=6ut2U">
+                                                      <value name="VALUE">
+                                                        <shadow type="objectList" id="?/ezc-5zK2YT4,MLdc[|">
+                                                          <field name="FIELDNAME">&lt;none&gt;</field>
+                                                        </shadow>
+                                                        <block type="groupList" id="a/uG/P$c`|+`pq5a+,cJ">
+                                                          <field name="FIELDNAME">Whole</field>
+                                                        </block>
+                                                      </value>
+                                                      <next>
+                                                        <block type="zoomCameraToObject" id="LpKg8F3P-Bwih4G0u`t|">
+                                                          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+                                                          <value name="OBJECT">
+                                                            <shadow type="objectList" id="|^)|e|!Vy{ZpVi_!{|c{">
+                                                              <field name="FIELDNAME">Inferior Oblique</field>
+                                                            </shadow>
+                                                          </value>
+                                                          <value name="DURATION">
+                                                            <shadow type="math_number" id="q79#qP%1C_b#^6O)$qQP">
+                                                              <field name="NUM">1</field>
+                                                            </shadow>
+                                                          </value>
+                                                        </block>
+                                                      </next>
+                                                    </block>
+                                                  </next>
+                                                </block>
+                                              </statement>
+                                              <next>
+                                                <block type="outline" id="/SD*(3/`_vB41Jy$P?iH">
+                                                  <field name="DO_WHAT">ENABLE</field>
+                                                  <value name="TARGET">
+                                                    <shadow type="objectList" id="[Z}[Xewu%1F0h=acS67o">
+                                                      <field name="FIELDNAME">Inferior Oblique</field>
+                                                    </shadow>
+                                                  </value>
+                                                  <next>
+                                                    <block type="lists_setIndex" id="wQ4Y{p$[dghJVBiXLIXi">
+                                                      <mutation at="true"></mutation>
+                                                      <field name="MODE">SET</field>
+                                                      <field name="WHERE">FROM_START</field>
+                                                      <value name="LIST">
+                                                        <block type="variables_get" id=",x=#SV+|*EV*#_TiHB/Y">
+                                                          <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                                                        </block>
+                                                      </value>
+                                                      <value name="AT">
+                                                        <block type="math_number" id="l^8$xg5.IpHYo4[Z+y7[">
+                                                          <field name="NUM">5</field>
+                                                        </block>
+                                                      </value>
+                                                      <value name="TO">
+                                                        <block type="logic_boolean" id="hep4bdNJD_o~t,JD]L-L">
+                                                          <field name="BOOL">TRUE</field>
+                                                        </block>
+                                                      </value>
+                                                    </block>
+                                                  </next>
+                                                </block>
+                                              </next>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </statement>
+                                      <statement name="ELSE">
+                                        <block type="lists_setIndex" id="H@JDRyN+WYhC}*o#=L$;">
+                                          <mutation at="true"></mutation>
+                                          <field name="MODE">SET</field>
+                                          <field name="WHERE">FROM_START</field>
+                                          <value name="LIST">
+                                            <block type="variables_get" id="^7A_{qRq!nX.aP!tD07g">
+                                              <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                                            </block>
+                                          </value>
+                                          <value name="AT">
+                                            <block type="math_number" id="O67_U97.K:O,BiY2xv3e">
+                                              <field name="NUM">5</field>
+                                            </block>
+                                          </value>
+                                          <value name="TO">
+                                            <block type="logic_boolean" id="D_RY+U0H]tWTrUqK-[2]">
+                                              <field name="BOOL">FALSE</field>
+                                            </block>
+                                          </value>
+                                        </block>
+                                      </statement>
+                                    </block>
+                                  </next>
+                                </block>
+                              </statement>
+                              <next>
+                                <block type="comment" id="=-7*bXLY-W6X)V{dTJxD">
+                                  <field name="TEXT">Eye Chambers</field>
+                                  <next>
+                                    <block type="eventHTMLElem" id="//s{Zbu+o}vG~iIjf*4!">
+                                      <field name="EVENT">click</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <shadow type="text" id="HJoN$ZUjl(KT0wwx=I-n">
+                                          <field name="TEXT">#superior-rectus</field>
+                                        </shadow>
+                                        <block type="querySelector" id="=G1Pe1w)=d=q;e-WJl!-">
+                                          <value name="QUERY">
+                                            <shadow type="text" id="z;@c?Wl7U2S[p!QIeWfE">
+                                              <field name="TEXT">#anterior-chamber &gt; p</field>
+                                            </shadow>
+                                          </value>
+                                        </block>
+                                      </value>
+                                      <statement name="DO">
+                                        <block type="outline" id="0kvH~z$ElZ=}A!Z$e)Tl">
+                                          <field name="DO_WHAT">DISABLE</field>
+                                          <value name="TARGET">
+                                            <shadow type="objectList" id="q,}.V5K[V%ZGw!kQ*]`d">
+                                              <field name="FIELDNAME">Cornea</field>
+                                            </shadow>
+                                            <block type="allObjectList" id="bAr%IENRs02#VdBLJV;:"></block>
+                                          </value>
+                                          <next>
+                                            <block type="controls_if" id="S*lG0,!lv-+e9Y=~Tzc-">
+                                              <mutation else="1"></mutation>
+                                              <value name="IF0">
+                                                <block type="logic_compare" id="!(X:fQCM(lm+=#x%y5KY">
+                                                  <field name="OP">EQ</field>
+                                                  <value name="A">
+                                                    <block type="lists_getIndex" id="L,!S-F+`]Yq/Q^{c:#B?">
+                                                      <mutation statement="false" at="true"></mutation>
+                                                      <field name="MODE">GET</field>
+                                                      <field name="WHERE">FROM_START</field>
+                                                      <value name="VALUE">
+                                                        <block type="variables_get" id="Gq/%N]u-b-f_VoF*i*Pp">
+                                                          <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                                                        </block>
+                                                      </value>
+                                                      <value name="AT">
+                                                        <block type="math_number" id="?q^b+-c8M8opt-#J?;iD">
+                                                          <field name="NUM">6</field>
+                                                        </block>
+                                                      </value>
+                                                    </block>
+                                                  </value>
+                                                  <value name="B">
+                                                    <block type="logic_boolean" id="1h|GbOhaCc}2D3pPivNZ">
+                                                      <field name="BOOL">FALSE</field>
+                                                    </block>
+                                                  </value>
+                                                </block>
+                                              </value>
+                                              <statement name="DO0">
+                                                <block type="variables_set" id="NH?ChwP$1nD^6fN(eTFI">
+                                                  <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                                                  <value name="VALUE">
+                                                    <block type="lists_repeat" id="8~1mtQXL9SPaEvMm._l.">
+                                                      <value name="ITEM">
+                                                        <block type="logic_boolean" id="=BAuiE0s*ulPgT|h`QiH">
+                                                          <field name="BOOL">FALSE</field>
+                                                        </block>
+                                                      </value>
+                                                      <value name="NUM">
+                                                        <block type="math_number" id="IQ^x]g~RGO+wM{1BxIM[">
+                                                          <field name="NUM">26</field>
+                                                        </block>
+                                                      </value>
+                                                    </block>
+                                                  </value>
+                                                  <next>
+                                                    <block type="controls_if" id="zN(p,9I$GO(4]O[3u*3(">
+                                                      <value name="IF0">
+                                                        <block type="isObjectVisible" id="r6**v1QL~7Er*@nI7y=x">
+                                                          <value name="VALUE">
+                                                            <shadow type="objectList" id="IY^?g]wA{E3Vl85kj54,">
+                                                              <field name="FIELDNAME">&lt;none&gt;</field>
+                                                            </shadow>
+                                                            <block type="groupList" id="_cBZVTl%F^rmnpY0BbPi">
+                                                              <field name="FIELDNAME">Whole</field>
+                                                            </block>
+                                                          </value>
+                                                        </block>
+                                                      </value>
+                                                      <statement name="DO0">
+                                                        <block type="hide" id="kS?g2Fe;)zMyhh6=]b!J">
+                                                          <value name="VALUE">
+                                                            <shadow type="objectList" id="V$*wIY?T9w-9p:S.}_*K">
+                                                              <field name="FIELDNAME">&lt;none&gt;</field>
+                                                            </shadow>
+                                                            <block type="groupList" id="([YX_z,_P5P^p$]Y;ro4">
+                                                              <field name="FIELDNAME">Whole</field>
+                                                            </block>
+                                                          </value>
+                                                          <next>
+                                                            <block type="show" id="q[fg4:XeRqpe80#!a_T*">
+                                                              <value name="VALUE">
+                                                                <shadow type="objectList" id="?/ezc-5zK2YT4,MLdc[|">
+                                                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                                                </shadow>
+                                                                <block type="groupList" id="1*bj[`^U6^|2(vuExvo!">
+                                                                  <field name="FIELDNAME">Crossection</field>
+                                                                </block>
+                                                              </value>
+                                                              <next>
+                                                                <block type="zoomCameraToObject" id="PUmb=JzC7Q%#oA{o$;fC">
+                                                                  <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+                                                                  <value name="OBJECT">
+                                                                    <shadow type="objectList" id="u4jk4!?]kOaiV]3m2}iz">
+                                                                      <field name="FIELDNAME">Anterior Chamber</field>
+                                                                    </shadow>
+                                                                  </value>
+                                                                  <value name="DURATION">
+                                                                    <shadow type="math_number" id="nWYxz@RajX%$teI?E-uA">
+                                                                      <field name="NUM">1</field>
+                                                                    </shadow>
+                                                                  </value>
+                                                                </block>
+                                                              </next>
+                                                            </block>
+                                                          </next>
+                                                        </block>
+                                                      </statement>
+                                                      <next>
+                                                        <block type="outline" id=".xi{^Mp%*`+5T?S8n%=C">
+                                                          <field name="DO_WHAT">ENABLE</field>
+                                                          <value name="TARGET">
+                                                            <shadow type="objectList" id="{uHxn!E!R|Oat39Q_7`G">
+                                                              <field name="FIELDNAME">Anterior Chamber</field>
+                                                            </shadow>
+                                                          </value>
+                                                          <next>
+                                                            <block type="lists_setIndex" id="#IF0sQ8q)s$*bV-jjR4a">
+                                                              <mutation at="true"></mutation>
+                                                              <field name="MODE">SET</field>
+                                                              <field name="WHERE">FROM_START</field>
+                                                              <value name="LIST">
+                                                                <block type="variables_get" id="SuB51Ur@O4n+po.Db#rd">
+                                                                  <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                                                                </block>
+                                                              </value>
+                                                              <value name="AT">
+                                                                <block type="math_number" id="-R3si@sZLt6d1@v{P(*w">
+                                                                  <field name="NUM">6</field>
+                                                                </block>
+                                                              </value>
+                                                              <value name="TO">
+                                                                <block type="logic_boolean" id="b]e^q$D92=jM!YD|@Qj3">
+                                                                  <field name="BOOL">TRUE</field>
+                                                                </block>
+                                                              </value>
+                                                            </block>
+                                                          </next>
+                                                        </block>
+                                                      </next>
+                                                    </block>
+                                                  </next>
+                                                </block>
+                                              </statement>
+                                              <statement name="ELSE">
+                                                <block type="lists_setIndex" id="CnPZhB`uuHayF?_am.DG">
+                                                  <mutation at="true"></mutation>
+                                                  <field name="MODE">SET</field>
+                                                  <field name="WHERE">FROM_START</field>
+                                                  <value name="LIST">
+                                                    <block type="variables_get" id="%f]aL{`LnB=KP5;CC5C}">
+                                                      <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                                                    </block>
+                                                  </value>
+                                                  <value name="AT">
+                                                    <block type="math_number" id="fc^9?=6As$-M(8S:9v!w">
+                                                      <field name="NUM">6</field>
+                                                    </block>
+                                                  </value>
+                                                  <value name="TO">
+                                                    <block type="logic_boolean" id="P#;,Q+$|`[fGB4~RQe]~">
+                                                      <field name="BOOL">FALSE</field>
+                                                    </block>
+                                                  </value>
+                                                </block>
+                                              </statement>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </statement>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="9F.Q@Gv=fQdTELgOtmpm" x="1030" y="1010">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="cZ^%S?m`Qv8X=e$FqW,u">
+          <field name="TEXT">myElem</field>
+        </shadow>
+        <block type="querySelector" id="HR%g1m1$:ClcRgFAPpby">
+          <value name="QUERY">
+            <shadow type="text" id="^/pGI0]NKZD%{q+09?!j">
+              <field name="TEXT">#cornea &gt; img</field>
+            </shadow>
+          </value>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="outline" id="b|J5Wbjl$!~l6bqdZj(W">
+          <field name="DO_WHAT">DISABLE</field>
+          <value name="TARGET">
+            <shadow type="objectList" id="e~Vlm{3p~D`uTA^YXS*o">
+              <field name="FIELDNAME">Cornea</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="outline" id="qIljTK2YNhfh_o4,sbgZ">
+              <field name="DO_WHAT">DISABLE</field>
+              <value name="TARGET">
+                <shadow type="objectList" id="Yd#h}+OMj%+]3McF[P6D">
+                  <field name="FIELDNAME">Cornea.001</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="hide" id="O*e2(I4MA^PJFBbnjgrd">
+                  <value name="VALUE">
+                    <shadow type="objectList" id="Xs/B{BqC|CV7$?AT9Zt+">
+                      <field name="FIELDNAME">Cornea</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="hide" id="U3]$VHg=NE:C.Us#EkfL">
+                      <value name="VALUE">
+                        <shadow type="objectList" id="4aEn.7s}vEd~$#@tg875">
+                          <field name="FIELDNAME">Cornea.001</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="K|DFRJPF6D-!XMA~p{of" x="1150" y="1630">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="J5P.iIOJwm0q9G[(xY$!">
+          <field name="TEXT">sclera</field>
+        </shadow>
+        <block type="querySelector" id="2_0YImw`v^j,$,2y)xw=">
+          <value name="QUERY">
+            <shadow type="text" id="6#]bwJXki]Udw!rY_{x:">
+              <field name="TEXT">#sclera &gt; p</field>
+            </shadow>
+          </value>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="outline" id="y3.LF@S?7gU.b5^(Nbmg">
+          <field name="DO_WHAT">DISABLE</field>
+          <value name="TARGET">
+            <shadow type="objectList" id="q,}.V5K[V%ZGw!kQ*]`d">
+              <field name="FIELDNAME">Cornea</field>
+            </shadow>
+            <block type="allObjectList" id="fZ5yjuXr$55zx8MukB_G"></block>
+          </value>
+          <next>
+            <block type="controls_if" id="X/@--1+{_x`SZoyZP/mc">
+              <mutation else="1"></mutation>
+              <value name="IF0">
+                <block type="logic_compare" id="R#$8jp,O_:nd2/JI77@t">
+                  <field name="OP">EQ</field>
+                  <value name="A">
+                    <block type="lists_getIndex" id="VYAt{ZNAYx3ax3HzGH7L">
+                      <mutation statement="false" at="true"></mutation>
+                      <field name="MODE">GET</field>
+                      <field name="WHERE">FROM_START</field>
+                      <value name="VALUE">
+                        <block type="variables_get" id="MO{MMX$^EZN53TRwpb{@">
+                          <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                        </block>
+                      </value>
+                      <value name="AT">
+                        <block type="math_number" id="l_mhXUjoyBsT~A4br3Yy">
+                          <field name="NUM">11</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="logic_boolean" id="dL{!)D3mi=!MDAAHlOqb">
+                      <field name="BOOL">FALSE</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <statement name="DO0">
+                <block type="variables_set" id="/!]Jg3Zt^XsmB38JExKO">
+                  <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                  <value name="VALUE">
+                    <block type="lists_repeat" id="!eOsxPZA*]z/(~:eG]p,">
+                      <value name="ITEM">
+                        <block type="logic_boolean" id="$,FZY]CkHS,hK4z;0qm$">
+                          <field name="BOOL">FALSE</field>
+                        </block>
+                      </value>
+                      <value name="NUM">
+                        <block type="math_number" id="K.[Q:-I6Om*Km.3pl?~D">
+                          <field name="NUM">26</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="controls_if" id="@N5N5=?X_;pX)6vJ:7`F">
+                      <mutation elseif="1"></mutation>
+                      <value name="IF0">
+                        <block type="isObjectVisible" id="$@Fx:7M;F)F8GU~Jcyx5">
+                          <value name="VALUE">
+                            <shadow type="objectList" id="IY^?g]wA{E3Vl85kj54,">
+                              <field name="FIELDNAME">&lt;none&gt;</field>
+                            </shadow>
+                            <block type="groupList" id="y-y/6Y^(j~62GIxZsCxz">
+                              <field name="FIELDNAME">Whole</field>
+                            </block>
+                          </value>
+                        </block>
+                      </value>
+                      <statement name="DO0">
+                        <block type="outline" id="lk0jr0Qo~BTkRzFfXYgO">
+                          <field name="DO_WHAT">ENABLE</field>
+                          <value name="TARGET">
+                            <shadow type="objectList" id="m{[)e`C(9j:e#}hG/H^(">
+                              <field name="FIELDNAME">Sclera</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </statement>
+                      <value name="IF1">
+                        <block type="isObjectVisible" id="pTyD:UNjJ_N/mV++|k#W">
+                          <value name="VALUE">
+                            <shadow type="objectList" id="IY^?g]wA{E3Vl85kj54,">
+                              <field name="FIELDNAME">&lt;none&gt;</field>
+                            </shadow>
+                            <block type="groupList" id="=z,g:GmYGvJDG,SRycY*">
+                              <field name="FIELDNAME">Crossection</field>
+                            </block>
+                          </value>
+                        </block>
+                      </value>
+                      <statement name="DO1">
+                        <block type="outline" id="2N0+(}8?FU7F3uK1pV@0">
+                          <field name="DO_WHAT">ENABLE</field>
+                          <value name="TARGET">
+                            <shadow type="objectList" id="lykZNeiNdL)UxM]_KHGy">
+                              <field name="FIELDNAME">Sclera.001</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </statement>
+                      <next>
+                        <block type="lists_setIndex" id="4l$E_D6NytiBcGE^K_FX">
+                          <mutation at="true"></mutation>
+                          <field name="MODE">SET</field>
+                          <field name="WHERE">FROM_START</field>
+                          <value name="LIST">
+                            <block type="variables_get" id="bCXl0xaB%G6j{bTv`.K]">
+                              <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                            </block>
+                          </value>
+                          <value name="AT">
+                            <block type="math_number" id="j7tq9w%3vaWEygF,Tose">
+                              <field name="NUM">11</field>
+                            </block>
+                          </value>
+                          <value name="TO">
+                            <block type="logic_boolean" id="u?9tET#bR:94)mG_}!}s">
+                              <field name="BOOL">TRUE</field>
+                            </block>
+                          </value>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+              <statement name="ELSE">
+                <block type="lists_setIndex" id="+jIdQzX^$l0ASV`3M+rF">
+                  <mutation at="true"></mutation>
+                  <field name="MODE">SET</field>
+                  <field name="WHERE">FROM_START</field>
+                  <value name="LIST">
+                    <block type="variables_get" id="VKt85+oJ{]./9B7!`9y~">
+                      <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                    </block>
+                  </value>
+                  <value name="AT">
+                    <block type="math_number" id="*;ic_SS(6d5D]WTn+WI7">
+                      <field name="NUM">11</field>
+                    </block>
+                  </value>
+                  <value name="TO">
+                    <block type="logic_boolean" id="s%Ii4RkW-aSp0m`cD0Cj">
+                      <field name="BOOL">FALSE</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <next>
+        <block type="eventHTMLElem" id="8AijOBRSum#P~yVqaNB!">
+          <field name="EVENT">click</field>
+          <field name="PARENT">TRUE</field>
+          <value name="ID">
+            <shadow type="text" id="*/x}*tXz*CP1D?KymtN)">
+              <field name="TEXT">cornea</field>
+            </shadow>
+            <block type="querySelector" id="o|I9F|dOEfD1nC{oZn{h">
+              <value name="QUERY">
+                <shadow type="text" id="V1s+r@L1s?9G~i)$78MD">
+                  <field name="TEXT">#cornea &gt; p</field>
+                </shadow>
+              </value>
+            </block>
+          </value>
+          <statement name="DO">
+            <block type="outline" id="S.t,1#ibcfHbN!L.ee[*">
+              <field name="DO_WHAT">DISABLE</field>
+              <value name="TARGET">
+                <shadow type="objectList" id="q,}.V5K[V%ZGw!kQ*]`d">
+                  <field name="FIELDNAME">Cornea</field>
+                </shadow>
+                <block type="allObjectList" id=":qYWb$n%gP?s`CBU(D-H"></block>
+              </value>
+              <next>
+                <block type="controls_if" id="y-+aLW*y|ioQwh!r[IYd">
+                  <mutation else="1"></mutation>
+                  <value name="IF0">
+                    <block type="logic_compare" id="zYlMg8c+B)FTto--!Wie">
+                      <field name="OP">EQ</field>
+                      <value name="A">
+                        <block type="lists_getIndex" id="l:DAf`IAcWe#SN1AGKvv">
+                          <mutation statement="false" at="true"></mutation>
+                          <field name="MODE">GET</field>
+                          <field name="WHERE">FROM_START</field>
+                          <value name="VALUE">
+                            <block type="variables_get" id="iKim3-_x=I?GK;Z1m~rW">
+                              <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                            </block>
+                          </value>
+                          <value name="AT">
+                            <block type="math_number" id="D,KA/t3{-R3_0@h,I_yy">
+                              <field name="NUM">12</field>
+                            </block>
+                          </value>
+                        </block>
+                      </value>
+                      <value name="B">
+                        <block type="logic_boolean" id="liR(%m6k~rbD9l+2@jw]">
+                          <field name="BOOL">FALSE</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                  <statement name="DO0">
+                    <block type="variables_set" id="RuQ,dsp#hyC^=]|#0XeX">
+                      <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                      <value name="VALUE">
+                        <block type="lists_repeat" id="SS)ixQQt8!![)=#Dj*e1">
+                          <value name="ITEM">
+                            <block type="logic_boolean" id="k9Fd0+0G!Ui`d(S9g^rK">
+                              <field name="BOOL">FALSE</field>
+                            </block>
+                          </value>
+                          <value name="NUM">
+                            <block type="math_number" id="M46,dgJc5NOF;G?~}q,D">
+                              <field name="NUM">26</field>
+                            </block>
+                          </value>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="controls_if" id="N4|fAO7;5rdJ#3j,4b6D">
+                          <mutation elseif="1"></mutation>
+                          <value name="IF0">
+                            <block type="isObjectVisible" id="78gi0BMq9;G]QIQPXKr=">
+                              <value name="VALUE">
+                                <shadow type="objectList" id="IY^?g]wA{E3Vl85kj54,">
+                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                </shadow>
+                                <block type="groupList" id="s)J#={T@|jq!M]Tc~7tC">
+                                  <field name="FIELDNAME">Whole</field>
+                                </block>
+                              </value>
+                            </block>
+                          </value>
+                          <statement name="DO0">
+                            <block type="outline" id=":/`27~qnm{#fEAO~WTlr">
+                              <field name="DO_WHAT">ENABLE</field>
+                              <value name="TARGET">
+                                <shadow type="objectList" id="1rnZ._B*R[,4aFInYZ(U">
+                                  <field name="FIELDNAME">Cornea</field>
+                                </shadow>
+                              </value>
+                            </block>
+                          </statement>
+                          <value name="IF1">
+                            <block type="isObjectVisible" id="T8(ygGte.7fi4xd)#Y2t">
+                              <value name="VALUE">
+                                <shadow type="objectList" id="IY^?g]wA{E3Vl85kj54,">
+                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                </shadow>
+                                <block type="groupList" id="^8,`3*.c/!_fJX=Kp}!h">
+                                  <field name="FIELDNAME">Crossection</field>
+                                </block>
+                              </value>
+                            </block>
+                          </value>
+                          <statement name="DO1">
+                            <block type="outline" id="6+kncowLKBAX+g{,Ce}G">
+                              <field name="DO_WHAT">ENABLE</field>
+                              <value name="TARGET">
+                                <shadow type="objectList" id="7Q$y:,sUNiD-rKeth+EP">
+                                  <field name="FIELDNAME">Cornea.001</field>
+                                </shadow>
+                              </value>
+                            </block>
+                          </statement>
+                          <next>
+                            <block type="lists_setIndex" id="+a*,;HeDH^1=}=hi]kTQ">
+                              <mutation at="true"></mutation>
+                              <field name="MODE">SET</field>
+                              <field name="WHERE">FROM_START</field>
+                              <value name="LIST">
+                                <block type="variables_get" id="*2)[I1PEd|)n:a=c]{WJ">
+                                  <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                                </block>
+                              </value>
+                              <value name="AT">
+                                <block type="math_number" id="x@c@2?rYK|c8Hk.+z1YZ">
+                                  <field name="NUM">12</field>
+                                </block>
+                              </value>
+                              <value name="TO">
+                                <block type="logic_boolean" id="a%l}]_GfEA)pJhS2oG*7">
+                                  <field name="BOOL">TRUE</field>
+                                </block>
+                              </value>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                  <statement name="ELSE">
+                    <block type="lists_setIndex" id="`$R4+:Xzzen?cf/(uCD4">
+                      <mutation at="true"></mutation>
+                      <field name="MODE">SET</field>
+                      <field name="WHERE">FROM_START</field>
+                      <value name="LIST">
+                        <block type="variables_get" id="mlL}u@*H_P.+gr([jVVc">
+                          <field name="VAR" id="VP*]VqUq47=8Vi8~lg0m">selected</field>
+                        </block>
+                      </value>
+                      <value name="AT">
+                        <block type="math_number" id="sjSPlpJwgh8,pB#Lk5Py">
+                          <field name="NUM">12</field>
+                        </block>
+                      </value>
+                      <value name="TO">
+                        <block type="logic_boolean" id="H,BprqJDiqoqlg^tn_C4">
+                          <field name="BOOL">FALSE</field>
+                        </block>
+                      </value>
+                    </block>
+                  </statement>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1903.1999999999998" viewport-y="37" viewport-w="1280.8" viewport-h="690" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

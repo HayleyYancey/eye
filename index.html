@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>3D Eye Interactive</title>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<nav>
+			<div class="search-bar">
+				<img src="./assets/search.svg">
+				<input type="text">
+			</div>
+
+			<section class="anatomy-section" id="ext-eye-muscles">
+				<div class="section-title">
+					<h2>Extrinsic Eye Muscles</h2>
+					<img src="./assets/up-arrow.svg">
+				</div>
+			</section>
+
+			<section class="anatomy-section" id="eye-chambers">
+				<div class="section-title">
+					<h2>Eye Chambers</h2>
+					<img src="./assets/up-arrow.svg">
+				</div>
+			</section>
+
+			<section class="anatomy-section" id="fibrous-tunic">
+				<div class="section-title">
+					<h2>Fibrous Tunic</h2>
+					<img src="./assets/up-arrow.svg">
+				</div>
+			</section>
+
+			<section class="anatomy-section" id="vascular-tunic">
+				<div class="section-title">
+					<h2>Vascular Tunic</h2>
+					<img src="./assets/up-arrow.svg">
+				</div>
+			</section>
+
+			<section class="anatomy-section" id="nervous-tunic">
+				<div class="section-title">
+					<h2>Nervous Tunic</h2>
+					<img src="./assets/up-arrow.svg">
+				</div>
+			</section>
+		</nav>
+
+		<main>
+			<!-- Add your verge3D iframe here -->
+			 <div style="position: absolute; top: 1.5rem; right: 1.5rem; min-height: 90px; width: 320px; background-color: #f1f2f3; border-radius: 12px; display: flex; justify-content: space-evenly; padding: 0 1rem; align-items: center;">
+				<img height="30px" width="30px" style="padding:1rem; padding-left: .25rem;" src="./assets/info.svg">
+				<p id="infoText">Select a structure for more info.</p>
+			</div>
+			<iframe width="100%" height="100%" src="eye_anatomy - whole.html"></iframe>
+		</main>
+		
+		<script src="index.js"></script>
+	</body>
+</html>
